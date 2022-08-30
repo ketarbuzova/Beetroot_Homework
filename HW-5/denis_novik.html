@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denis_Novik</title>
 </head>
-<body>
-    <section>
-        <article id="Home">
-        <nav class="Menu">
+<style>
+    li {list-style-type: none;}   
+</style>
+
+<header>
+    <section id="home">
+        <nav class="menu">
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About me</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
-        </article>
     </section>
+</header>
     
     <hr>
     
-    <section class="Head_picture">
+<body>
+    <section class="head_picture">
         <div>
             <h1>Denis Novik</h1>
                 <img src="./img/photox940.png" alt="Photo">
@@ -31,7 +35,7 @@
     </section>
     
     <section>
-        <article id="About">
+        <article id="about">
             <h2>About me</h2>
             <p>Hi, I'm Denis – UX/UI designer from Minsk.
                 I'm interested in design and everything connected with it.</p>
@@ -42,71 +46,60 @@
         </article>
     </section>
     
-    <section>
-        <article id="Skills">
+    <section id="skills">
         <div>
             <h2>Skills</h2>
                 <p>I work in such programs as</p>
                 <ul>
-                    <style>
-                        li {list-style-type: none;}   
-                    </style>
                     <li>
                         <img src="./img/Ps.svg" alt="PS">
-                        <p>Adobe Photoshop</p>
+                        <h3>Adobe Photoshop</h3>
                         <img src="./img/rating.svg" alt="rating">
                     </li>
                   
                     <li>
                         <img src="./img/Ai.svg" alt="AI">
-                        <p>Adobe Illustrator</p>
+                        <h3>Adobe Illustrator</h3>
                         <img src="./img/rating-1.svg" alt="rating-1">
                     </li>
                 
                     <li>
                         <img src="./img/Ae.svg" alt="AE">
-                        <p>Adobe Illustrator</p>
+                        <h3>Adobe Illustrator</h3>
                         <img src="./img/rating-2.svg" alt="rating-2">
                     </li>
 
                     <li>
                         <img src="./img/Figma.svg" alt="Figma">
-                        <p>Adobe Illustrator</p>
+                        <h3>Adobe Illustrator</h3>
                         <img src="./img/rating-3.svg" alt="rating-3">
                     </li>            
                 </ul>                
         </div>
-        </article>
     </section>
 
-    <section>
-        <article id="Portfolio">
+    <section id="portfolio">
         <h2>Portfolio</h2>
         <div>
-            <img src="./img/Fashion-Store.png" alt="Fashion_store">
+            <div><img src="./img/Fashion-Store.png" alt="Fashion_store"></div>
             <p><a href="https://www.asos.com/" target="_blank">Online fashion store - Homepage</a></p>
         </div>
         <div>
-            <img src="./img/reebok_web.png" alt="Reebok">
+            <div><img src="./img/reebok_web.png" alt="Reebok"></div>
             <p><a href="https://www.reebok.in.ua/" target="_blank">Reebok Store - Concept</a></p>
-            <div>
-                <img src="./img/braun-landing.png" alt="Braun">
-                <p><a href="https://braun-market.com.ua/" target="_blank">Braun Landing Page - Concept</a></p>
-            </div>
         </div>
-        </article>
+        <div>
+            <div><img src="./img/braun-landing.png" alt="Braun"></div>
+            <a href="https://braun-market.com.ua/" target="_blank">Braun Landing Page - Concept</a>
+        </div>
     </section>
 
-    <section>
-        <article id="Contacts">
+    <section id="contacts">
         <h2>Contacts</h2>
             <p>Want to know more or just chat?</p> 
             <p>You are welcome!</p>
             <button>Send message</button>
             <ul>
-                <style>
-                    li {list-style-type: none;}   
-                </style>
                 <li>
                     <a href="https://ua.linkedin.com/" target="_blank"><img src="./img/linkedin.svg" alt="linkedin"></a>
                 </li>
@@ -124,8 +117,7 @@
                 </li>
             </ul> 
             <p>Like me on</p>
-            <p>LinkedIn, Instagram, Behance, Dribble</p>
-        </article>     
+            <p>LinkedIn, Instagram, Behance, Dribble</p> 
     </section>
 </body>
 </html>
