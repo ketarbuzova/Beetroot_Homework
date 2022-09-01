@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denis_Novik</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
 <header>
-    <section class="visual-menu" id="home">
-        <nav class="menu">
-            <ul class="list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
+    <section class="visual-menu">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacts">Contacts</a>
         </nav>
     </section>
 </header>
@@ -33,7 +32,7 @@
     </section>
     
     <section class="about" id="about">
-        <h2>About me</h2>
+        <h2 class="center">About me</h2>
         <div>
             <p>Hi, I'm Denis – UX/UI designer from Minsk.
                 I'm interested in design and everything connected with it.</p>
@@ -44,40 +43,35 @@
         </div>
     </section>
     
-    <section id="skills">
-        <div>
-            <h2>Skills</h2>
-                <p>I work in such programs as</p>
-                <ul>
-                    <li>
+    <section class="skills">
+        <h2>Skills</h2>
+            <p class="center">I work in such programs as</p>
+                <div class="col-12">
+                    <div class="col-3">
                         <img src="./img/Ps.svg" alt="PS">
-                        <h3>Adobe Photoshop</h3>
+                        <div class="box"><h3>Adobe Photoshop</h3></div>
                         <img src="./img/rating.svg" alt="rating">
-                    </li>
-                  
-                    <li>
+                    </div>  
+                    <div class="col-3">    
                         <img src="./img/Ai.svg" alt="AI">
-                        <h3>Adobe Illustrator</h3>
+                        <div class="box"><h3>Adobe Illustrator</h3></div>
                         <img src="./img/rating-1.svg" alt="rating-1">
-                    </li>
-                
-                    <li>
+                    </div>  
+                    <div class="col-3">    
                         <img src="./img/Ae.svg" alt="AE">
-                        <h3>Adobe Illustrator</h3>
+                        <div class="box"><h3>Adobe Illustrator</h3></div>
                         <img src="./img/rating-2.svg" alt="rating-2">
-                    </li>
-
-                    <li>
+                    </div>  
+                    <div  class="col-3">    
                         <img src="./img/Figma.svg" alt="Figma">
-                        <h3>Adobe Illustrator</h3>
+                        <div class="box"><h3>Adobe Illustrator</h3></div>
                         <img src="./img/rating-3.svg" alt="rating-3">
-                    </li>            
-                </ul>                
-        </div>
+                    </div>
+                </div>
     </section>
 
     <section id="portfolio">
-        <h2>Portfolio</h2>
+        <h2 class="center">Portfolio</h2>
         <div>
             <div><img src="./img/Fashion-Store.png" alt="Fashion_store"></div>
             <p><a href="https://www.asos.com/" target="_blank">Online fashion store - Homepage</a></p>
@@ -95,7 +89,7 @@
 
 <footer>
     <section id="contacts">
-        <h2>Contacts</h2>
+        <h2 class="center">Contacts</h2>
             <p>Want to know more or just chat?</p> 
             <p>You are welcome!</p>
             <button>Send message</button>

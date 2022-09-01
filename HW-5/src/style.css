@@ -1,0 +1,38 @@
+header {
+   background-color: rgb(200, 200, 200);
+   text-decoration: none;
+}
+.visual-menu {
+    text-decoration: none;
+}
+
+li {list-style: none;}
+
+* {
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+
+.head_picture {
+    padding: 40px 15px;
+}
+
+#skills {
+    padding: 100px 100px
+}
+
+body {
+    text-align: center;
+}
+
+#about {
+    background-color: F6F6F6;
+}
+
+h1 {
+    text-align: 0 0 0 50;
+}
+
