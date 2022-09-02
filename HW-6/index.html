@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denis_Novik</title>
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" type="text/css" href="src/style.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
     
 <main>
     <section class="head_picture">
-        <h1>Denis Novik</h1>
+        <div id="hp"><h1>Denis Novik</h1></div>
             <div>
                 <img src="./img/photox940.png" alt="Photo">
              </div>
@@ -74,15 +74,15 @@
         <h2 class="center">Portfolio</h2>
         <div>
             <div><img src="./img/Fashion-Store.png" alt="Fashion_store"></div>
-            <p><a href="https://www.asos.com/" target="_blank">Online fashion store - Homepage</a></p>
+            <div class="link"><a href="https://www.asos.com/" target="_blank">Online fashion store - Homepage</a></div>
         </div>
         <div>
             <div><img src="./img/reebok_web.png" alt="Reebok"></div>
-            <p><a href="https://www.reebok.in.ua/" target="_blank">Reebok Store - Concept</a></p>
+            <div class="link"><a href="https://www.reebok.in.ua/" target="_blank">Reebok Store - Concept</a></div>
         </div>
         <div>
             <div><img src="./img/braun-landing.png" alt="Braun"></div>
-            <a href="https://braun-market.com.ua/" target="_blank">Braun Landing Page - Concept</a>
+            <div class="link"><a href="https://braun-market.com.ua/" target="_blank">Braun Landing Page - Concept</a></div>
         </div>
     </section>
 </main>
@@ -90,28 +90,28 @@
 <footer>
     <section id="contacts">
         <h2 class="center">Contacts</h2>
-            <p>Want to know more or just chat?</p> 
-            <p>You are welcome!</p>
-            <button>Send message</button>
-            <ul>
-                <li>
+            <div class="text-lh"><p>Want to know more or just chat?</p> 
+            <p>You are welcome!</p></div>
+                <div class="ecenter">
+            <button class="padding">Send message</button>
+               </div>
+                <div class="col-12 padding">
+                    <div class="col-3">
                     <a href="https://ua.linkedin.com/" target="_blank"><img src="./img/linkedin.svg" alt="linkedin"></a>
-                </li>
-                
-                <li>
+                     </div>
+                     <div class="col-3">
                     <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.svg" alt="instagram"></a>
-                </li>
-                
-                <li>
+                    </div>
+                    <div class="col-3">
                     <a href="https://www.behance.net/" target="_blank"><img src="./img/behance.svg" alt="behance"></a>
-                </li>
-
-                <li>
+                    </div>
+                    <div class="col-3">
                     <a href="https://dribbble.com/" target="_blank"><img src="./img/dribbble.svg" alt="dribble"></a>
-                </li>
-            </ul> 
-            <p>Like me on</p>
-            <p>LinkedIn, Instagram, Behance, Dribble</p> 
+                   </div>
+                </div>
+                <div class="footer-text">
+            <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
+                </div> 
     </section>
 </footer>
 </body>
