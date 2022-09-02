@@ -21,7 +21,7 @@ header section nav a{
     padding: 20px;
     text-decoration: none;
     color: #828282;
-    transition: color 0.5s;
+    transition: color 0.3s;
 }
 
 header section nav a:hover {
@@ -136,7 +136,7 @@ div.link a{
 div.link a:hover{
     color: #828282;
     text-decoration: none;
-    transition: color 0.5s;
+    transition: color 0.3s;
 }
 
 footer {
