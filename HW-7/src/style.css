@@ -1,6 +1,5 @@
-* {
+*, *::after, *::before {
     box-sizing: border-box;
-    transition: all 0.1s ease-in;
 }
 
 body {
@@ -41,16 +40,16 @@ h1 {
 main {
     height: 425px;
     background-color: #3B3F45;
+    padding-top: 20px;
 }
 
 .s_l {
-    margin: 0 auto;
-    display: inline-block;
+    margin: 0 auto 45px;
+    display: block;
     list-style: none;
-    margin-top: 20px;
-    width: 574px;
+    max-width: 534px;
     height: 45px;
-    margin-left: 90px;
+    padding: 0;
 }
 
 .s_l .what::before{
@@ -68,16 +67,10 @@ main {
     cursor: pointer; 
 }
 
-/*input:checked + label:before {
-    background: #FFFFFF;
-    color: black;
-    border: none;
-}*/
-
 .s_l li {
-    background: #88839E;
-    border-color: 0 solid #FFFFFF;
+    background-color: #88839E;
     height: 45px;
+    transition: all .1s ease-in;
 }
 
 .s_l li:nth-child(odd) {
@@ -86,10 +79,16 @@ main {
 
 .s_l li:hover {
     background: #625E77;
-    border-width: 3px 0;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
 }
 
-.s_l [type=checkbox]:checked + span {
+.s_l input[type=checkbox]:checked + label {
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.s_l input[type=checkbox]:checked + span {
     text-decoration: line-through;
     color: #9B96AC;
 }
@@ -99,6 +98,13 @@ main {
     cursor: pointer;
     padding: 10px;
     height: 25px;
+    position: relative;
+}
+
+.effect:hover:before {
+    position: absolute;
+    border-bottom: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
 }
 
 button {
@@ -106,8 +112,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -90px;
-    border-style: none;
+    margin-top: 270px;
+    border: none;
     width: 534px;
     height: 45px;
     background: #4A4F56;
@@ -115,7 +121,7 @@ button {
     font-size: 18px;
     line-height: 21px; 
     cursor: pointer; 
-    transition: all .1s ease-in;;
+    transition: all .1s ease-in;
 }
 
 .btn:hover {
