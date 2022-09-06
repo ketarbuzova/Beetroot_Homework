@@ -13,6 +13,8 @@ body {
     width: 100%;  
 }
 
+.header, .hero-section, .product {}
+
 h1 {
     margin: 0 0 30px;
     font-size: 44px;
