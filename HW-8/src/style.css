@@ -326,8 +326,8 @@ footer .container .row {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    border-top: 1px solid #BCD0E5;
-    border-width: 100%;
+    /*border-top: 1px solid #BCD0E5;
+    border-width: 100%;*/
     padding: 40px 0 70px;
 }
 
@@ -341,7 +341,7 @@ footer .container .logo {
 
 footer ul li {
     list-style: none;
-    padding: 17px 0 0;
+    padding: 10px 0;
     margin-left: -40px;
 }
 
@@ -405,7 +405,7 @@ form input {
 }
 
 form {
-    padding: 0 0 25px;
+    padding: 10px 0 30px;
 }
 
 input[type="tel"]::-webkit-input-placeholder {
@@ -430,3 +430,11 @@ input, textarea {
 #product-managers .row .col {
     width: 50%;
 }*/
+
+hr {
+    border: none;
+    background-color: #BCD0E5;
+    color:#BCD0E5;
+    height: 1px;
+    width: 100%;
+}
