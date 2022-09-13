@@ -438,7 +438,7 @@ p {
 }
 
 .footer .logo-holder {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .footer-title {
@@ -524,6 +524,12 @@ p {
     font-size: 14px;
     line-height: 22px;
     color: rgba(29, 31, 46, 0.3);
+    display: inline-block;
+    padding-top: 80px;
+}
+
+.footer .copy-text {
+    padding-top: 55px;
 }
 
 .copy a {
