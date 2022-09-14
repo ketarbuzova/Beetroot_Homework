@@ -170,7 +170,7 @@ p {
 
 .hero-section .img-row .rotate-img-row:hover {
     background: url("../img/bg-blue-card.svg"); 
-    background-position: 0 -30px;  
+    background-position: 0 -0.1px;  
 }
 
 .hero-section .job-title {
