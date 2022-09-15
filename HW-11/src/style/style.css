@@ -94,7 +94,7 @@ p {
 
 .btn-callback:hover {
     background-color: #18B5DC;
-    border-style: none;
+    border: 1px solid;
     color: white;
 }
 
@@ -147,22 +147,29 @@ p {
     height: 270px;
 }
 
-.hero-section .img-row.card .rotate-img-row{
-    background: url("../img/card.png"); 
-    transition: ease-in-out 0.3s;
-    width: 270px;
-    height: 270px;
-}
-
-.hero-section .img-row.card-2 .rotate-img-row{
+.hero-section .img-row.card-1 .rotate-img-row{
     background: url("../img/card-1.png"); 
     transition: ease-in-out 0.3s;
     width: 270px;
     height: 270px;
 }
 
-.hero-section .img-row.card-3 .rotate-img-row{
+.hero-section .img-row.card-2 .rotate-img-row{
     background: url("../img/card-2.png"); 
+    transition: ease-in-out 0.3s;
+    width: 270px;
+    height: 270px;
+}
+
+.hero-section .img-row.card-3 .rotate-img-row{
+    background: url("../img/card-3.png"); 
+    transition: ease-in-out 0.3s;
+    width: 270px;
+    height: 270px;
+}
+
+.hero-section .img-row.card-4 .rotate-img-row{
+    background: url("../img/card-4.png"); 
     transition: ease-in-out 0.3s;
     width: 270px;
     height: 270px;
