@@ -35,6 +35,12 @@ body {
     text-align: center;
 }
 
+.col:hover {
+    filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.5));
+    border-radius: 20px;
+    transition: all 0.3s ease-out;
+}
+
 .architectural-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
@@ -165,11 +171,10 @@ body {
 
 .image-holder {
     position: relative;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .image-holder img{
@@ -209,7 +214,6 @@ body {
 .image-holder:hover .background-image{
     opacity: 0;
     visibility: hidden;
-
     transition: all 0.3s ease-out;
 }
 
@@ -232,6 +236,16 @@ body {
     position: absolute;
     bottom: 20px;
     right: 20px;
+}
+
+.description-holder {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%);
 }
 
 .icon-holder .like-icon {
@@ -265,11 +279,4 @@ body {
 .icon-holder .like-icon:hover,
 .download-icon:hover {
     background-color: #E0E0E0;
-}
-
-
-
-.architectural {
-
-
 }
