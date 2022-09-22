@@ -140,7 +140,7 @@ h2 {
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
-  }
+}
 
 .logo-holder {
     float: right;
@@ -153,13 +153,23 @@ h2 {
     padding: 70px 0 0;
 }
 
+.title-holder .title {
+    position: relative;
+    padding: 10px 0 0;
+}
+
 .title-holder .chapter {
     font-family: 'farro';
     font-weight: 300;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.04em;
     padding-left: 10px;
+}
+
+.title-holder:last-child {
+    position: absolute;
+    align-items: flex-start;
 }
 
 .text-holder p {
