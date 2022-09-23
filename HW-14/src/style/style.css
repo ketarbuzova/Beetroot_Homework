@@ -55,7 +55,19 @@ h2 {
     grid-area: col-3;
 }
 
-.lang-dropdown {
+.lang-select {
+    font-family: 'Tourney';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    outline: none;
+    border: 0;
+    appearance: none;
+}
+
+
+/*.lang-dropdown {
     position: relative;
     display: inline-block;
 }
@@ -100,7 +112,7 @@ h2 {
 
 .lang-dropdown:hover .lang-list:hover {
     display: block;
-}
+}*/
 
 .nav-list {
     display: flex;
@@ -116,7 +128,8 @@ h2 {
     padding: 0 4px;
     transition: all 0.3s ease-out;
     text-decoration: none;
-    /*font-family: 'staatliches';*/
+    /*font-family: 'staatliches';
+    /*font-family: 'Staatliches';*/
     font-family: 'francois_one';
     font-weight: 400;
     font-size: 22px;
@@ -127,7 +140,6 @@ h2 {
 }
 
 .nav-link:hover {
-    transition: all 0.3s ease-out;
     color: #DADADA;
 }
 
@@ -169,15 +181,26 @@ h2 {
     align-items: flex-start;
 }
 
-.text-holder p {
+.text-holder p,
+.list-item {
     font-size: 28px;
     line-height: 48px;
     margin: 0;
     padding: 50px 0 0;
 }
 
+.list-holder {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .text-holder a {
     color: inherit;
+    transition: all 0.3s ease-out;
+}
+
+.text-holder a:hover {
+    color: #DADADA;
 }
 
 .gray {
@@ -187,3 +210,4 @@ h2 {
 .handling_text {
     padding-bottom: 90px;
 }
+
