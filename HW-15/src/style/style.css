@@ -264,17 +264,12 @@ p {
 
 .about-us-section .client-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
     list-style: none;
     padding-left: 0;  
     align-items: center;
-}
-
-
-.about-us-section .client-item {
-    display: flex;
-    flex-direction: column;
 }
 
 .relax-section {
