@@ -166,6 +166,10 @@ a {
   text-align: center;
 }
 
+.title-holder {
+  margin: 0 auto;
+  text-align: center;
+}
 .title-holder .pseudo-title {
   display: inline-block;
   font-weight: 300;
