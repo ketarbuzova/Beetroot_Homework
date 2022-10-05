@@ -18,7 +18,7 @@ h1 {
     color: $pink;
     margin: 0 auto;
 
-    @include media('>=768px') {
+    @include media('>=280px') {
         font-size: 18px;
     }
 
@@ -35,7 +35,7 @@ h2 {
     color: $middle-gray;
     margin: 0 0 20px;
 
-    @include media('>=768px') {
+    @include media('>=280px') {
         font-size: $base-font-size;
     }
 

@@ -94,7 +94,7 @@ h1 {
   color: #FE3FB4;
   margin: 0 auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 280px) {
   h1 {
     font-size: 18px;
   }
@@ -113,7 +113,7 @@ h2 {
   color: #666;
   margin: 0 0 20px;
 }
-@media (min-width: 768px) {
+@media (min-width: 280px) {
   h2 {
     font-size: 14px;
   }
@@ -174,7 +174,7 @@ a {
   color: #898F8F;
   padding: 0 0 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 280px) {
   .title-holder .pseudo-title {
     font-size: 14px;
   }
